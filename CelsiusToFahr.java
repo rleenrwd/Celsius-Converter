@@ -14,8 +14,8 @@ public class CelsiusToFahr {
 
         // Calculate the result
         fahrenheit =  celsius * (9.0 / 5.0) + 32.0;
-        
-        // Format the output to one decimal place
+
+        // Format the output to one decimal place to make it look neat
         System.out.printf("%.1f C = %.1f F\n", celsius, fahrenheit);
     }   
 }
